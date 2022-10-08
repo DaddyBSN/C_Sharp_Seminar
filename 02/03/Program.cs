@@ -1,8 +1,8 @@
 ﻿Console.WriteLine("Enter x: ");
-int x = int.Parse(Console.ReadLine());
+int x = int.Parse(Console.ReadLine() ?? "0");
 
 Console.WriteLine("Enter y: ");
-int y = int.Parse(Console.ReadLine());
+int y = int.Parse(Console.ReadLine() ?? "0");
 
 if (x>0)
     {
