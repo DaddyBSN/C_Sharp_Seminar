@@ -16,6 +16,5 @@ else
     {
         res = i * res;
     }
-
     Console.WriteLine(res);
 }
